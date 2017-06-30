@@ -1,0 +1,73 @@
+
+html{ width:1000px;
+}
+body{
+  line-height: 1.8;
+  margin: 0;
+  background-color: #F2F1E8;
+}
+main {
+  display: flex;
+  background-color: #F2F1E8;
+  flex-basis: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+#site-header div {
+  text-align: center;
+  padding: 60px 0 120px 0;
+  font-size: 4em;
+  background-color: #F2F1E8;
+  width: 1000px;
+  background-size: cover;
+  background-position: right bottom;
+}
+#site-header div h1, #site-header div h3 {
+  margin: 0;
+  line-height: 1;
+  position: relative;
+}
+
+#site-header div h1 {
+  top: 20px;
+}
+
+#site-header div h3 {
+  color: black;
+  bottom: 20px;
+  font-family: , sans-serif;
+}
+#main-navigation {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+#main-navigation a{
+    display: block;
+    color: #2B2F26;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    justify-content: space-around;
+  }
+  #main-navigation #logo {
+  margin-right: 400px;
+}
+#cactus img{
+  display: block;
+  max-width:750px;
+  max-height:360px;
+
+}
+#bowl img{
+  height: 230px;
+  width: 370px;
+}
