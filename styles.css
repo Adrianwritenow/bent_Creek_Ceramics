@@ -7,16 +7,18 @@ body{
   background-color: #F2F1E8;
 }
 main {
+  display: block;
   display: flex;
   background-color: #F2F1E8;
   flex-basis: 100%;
-  justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
+flex-direction: row;
+
 }
 
 .wrapper {
-  width: 1000px;
+  width: 1450px;
   margin: 0 auto;
   display: flex;
   flex-flow: wrap;
@@ -61,13 +63,40 @@ main {
   #main-navigation #logo {
   margin-right: 400px;
 }
-#cactus img{
+.row_1{
   display: block;
-  max-width:750px;
-  max-height:360px;
-
+  display: flex;
+  flex-direction: row;
+}
+main img{
+  padding: 8px;
+}
+#cactus img{
+  width:731px;
+  height:368px;
 }
 #bowl img{
-  height: 230px;
-  width: 370px;
+  height: 368px;
+  width: 236px;
+}
+#platter img{
+  height: 368px;
+  width: 236px;
+}
+#tea_cup img{
+  width: 234px;
+  height:240px;
+}
+#jars img{
+  width: 234px;
+  height:240px;
+}
+#saki_jug  img{
+  width: 485px;
+  height:240px;
+
+}
+#cup_tan img{
+  width: 234px;
+  height:240px;
 }
