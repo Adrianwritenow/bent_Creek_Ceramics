@@ -1,126 +1,75 @@
-
-html{ width:1200px;
-  height: 700px;
-  color:#F2F1E8;
-
-  justify-content: center;
-}
 body{
-  line-height: 2.2;
-  margin: 0;
-  /*background-color: #F2F1E8;*/
-  justify-content: center;
-  height: 807px;
-}
-main {
-  display: block;
-  display: flex;
-  background-color: #F2F1E8;
-  flex-basis: 100%;
-  flex-wrap: wrap;
-  position: relative;
-flex-direction: row;
-justify-content: center;
-height:306px;
-margin-bottom: -218px;
-margin-top: -208px;
-
-
-}
-
-.wrapper {
-  width: 1300px;
-  height: 1087px;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  margin-bottom: -90px;
   background-color: #F2F1E8;
 }
-#site-header{
-  justify-content: center;
-  height: 0px;
 
-}
 #site-header div {
+  font-family: 'Merriweather', serif;
   text-align: center;
-  padding: 60px 0 ;
-  font-size: 2em;
-  background-color: #F2F1E8;
-  width: 1300px;
-  background-size: cover;
-  background-position: right bottom;
   justify-content: center;
-
-
+  font-size: 2.5em;
 }
-#site-header div h1, #site-header div h2 {
-  margin: 0;
-  line-height: 1;
-  color: black;
-}
-
-#site-header div h1 {
-  top: 20px;
-  justify-content: center;
-  padding: 15px;
-  font-size: 2.2em;
-}
-
-#site-header div h3 {
-  color: black;
-  bottom: 20px;
+#site-header h2{
+    font-weight:100;
+    font-size: 1em;
+    margin-top: -40px;
 
 }
-h1, h2, h3 {
-  font-family:'Merriweather', serif;
-  font-weight:normal;
-margin-left: 10px;}
-h2{
-  padding-top: 10px;
-  font-weight:100;
-  font-size: 1.3em;
+#site-header h1{
+  font-weight:400;
+
 }
-#main-navigation {
-  width:1300px;
-  background: #FFFFFF;
+#main-navigation #logo{
+  margin-right: 400px;
+}
+
+.wrapper{
+  background-color: white;
+  padding:5px;
+}
+#main-navigation{
   display: flex;
-  justify-content: center;
-
-}
-#main-navigation img{
-  display: block;
-  justify-content: flex-start;
-height: 50px;
-padding: 10px;
+justify-content: space-between;
 }
 #main-navigation a{
-    display: block;
+  padding: 10px;
+    justify-content: space-around;
     color: #2B2F26;
     text-transform: uppercase;
-    padding: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
-    padding-left: 30px;
-
-  }
+}
+#logo{
+  width:50px;
+  height: 50px;
+}
+.logo img{
+  display: flex;
+  width:50px;
+  justify-content: flex-start;
+}
 
 
 
 .row_1{
+  display: flex;
+  flex-direction: row;
+  height: 383px;
+}
+.row_2{
   display: block;
   display: flex;
   flex-direction: row;
+  height: 383px;
+
 }
+
 main img{
   padding: 8px;
   justify-content: center;
   object-fit: cover;
-
 }
-.row_1{
-height: 383px;
+.nav_bar{
+float: right;
 }
 
 #cactus img{
@@ -220,19 +169,13 @@ h3{
   border-style: solid #2e3528 ;
   color: #F2F1E8;
   background-color: #2e3528;
+  margin-left: 0px;
 }
-#site-footer {
-  justify-content: center;
-  color: white;
-  background: #333;
-  padding: 30px;
-  width: 1250px;
-  margin-left: -8px;
-}
+#site-footer{
+  background-color: black;
+    width: 1211px;
+    color: white;
+    margin-left: -9px;
+    padding: 20px;
 
-#site-footer span {
-  display: flex;
-  display: block;
-  text-align: center;
-  justify-content: center;
 }
