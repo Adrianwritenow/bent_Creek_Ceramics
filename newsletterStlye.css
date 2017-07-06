@@ -28,6 +28,10 @@ justify-content: space-between;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
+    margin-left: -198px;
+    margin-right: 287px;
+
+
 }
 #logo{
   width:50px;
@@ -38,6 +42,7 @@ justify-content: space-between;
   width:50px;
   justify-content: flex-start;
 }
+
 .center_block{
   background-color:white;
   width: 615px;
