@@ -1,192 +1,215 @@
-body{
+body {
   background-color: #F2F1E8;
 }
-#site-header{
+
+#site-header {
   margin-right: -30px;
 }
+
 #site-header div {
   font-family: 'Merriweather', serif;
   text-align: center;
   justify-content: center;
   font-size: 2.5em;
 }
-#site-header h2{
-    font-weight:100;
-    font-size: 1em;
-    margin-top: -40px;
 
-}
-#site-header h1{
-  font-weight:400;
-
-}
-.wrapper{
-    background-color: white;
-    margin-left: -10px;
-    padding:5px;
-    margin-top: -10px;
-
+#site-header h2 {
+  font-weight: 100;
+  font-size: 1em;
+  margin-top: -40px;
 }
 
+#site-header h1 {
+  font-weight: 400;
+}
 
-#main-navigation #logo{
+.wrapper {
+  background-color: white;
+  margin-left: -10px;
+  padding: 5px;
+  margin-top: -10px;
+  width: 1300px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+#main-navigation #logo {
   margin-right: 400px;
+  margin-right: 546px;
 }
 
-#main-navigation{
+#main-navigation {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
-#main-navigation a{
+
+#main-navigation a {
   padding: 10px;
-    justify-content: space-around;
-    color: #2B2F26;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    margin-left: -198px;
-    margin-right: 287px;
-
-
+  justify-content: space-around;
+  color: #2B2F26;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0em;
+  margin-left: -261px;
+  margin-right: 382px;
+  line-height: 26px;
 }
-#logo{
-  width:50px;
+
+#main-navigation a:hover {
+  color: #978774;
+}
+
+#logo {
+  width: 50px;
   height: 50px;
 }
-.logo img{
+
+.logo img {
   display: flex;
-  width:50px;
+  width: 50px;
   justify-content: flex-start;
 }
 
-
-.row_1{
+.row_1 {
   display: flex;
   flex-direction: row;
   height: 383px;
 }
-.row_2{
+
+.row_2 {
   display: block;
   display: flex;
   flex-direction: row;
   height: 383px;
-
 }
 
-main img{
+main img {
   padding: 8px;
   justify-content: center;
   object-fit: cover;
 }
-.nav_bar{
-float: right;
+
+.nav_bar {
+  float: right;
 }
 
-#cactus img{
-  width:731px;
-  height:368px;
+#cactus img {
+  width: 731px;
+  height: 368px;
 }
+
 #cactus h3 {
   position: relative;
   top: -100px;
   left: 8px;
   display: flex;
-width:226px;
-height: 40px;
-justify-content: center;
+  width: 226px;
+  height: 40px;
+  justify-content: center;
 }
-#bowl img{
+
+#bowl img {
   height: 368px;
   width: 236px;
 }
+
 #bowl h3 {
   position: relative;
   top: -100px;
   left: 8px;
   display: flex;
-width:73px;
-height: 40px;
-justify-content: center;
+  width: 73px;
+  height: 40px;
+  justify-content: center;
 }
-#platter img{
+
+#platter img {
   height: 368px;
   width: 236px;
 }
+
 #platter h3 {
   position: relative;
   top: -100px;
   left: 8px;
   display: flex;
-width:90px;
-height: 40px;
-justify-content: center;
+  width: 90px;
+  height: 40px;
+  justify-content: center;
 }
-#tea_cup img{
+
+#tea_cup img {
   width: 234px;
-  height:240px;
+  height: 240px;
 }
+
 #tea_cup h3 {
   position: relative;
   top: -100px;
   left: 8px;
   display: flex;
-width:100px;
-height: 40px;
-justify-content: center;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
 }
-#jars img{
+
+#jars img {
   width: 234px;
-  height:240px;
+  height: 240px;
 }
+
 #jars h3 {
   position: relative;
   top: -100px;
   left: 8px;
   display: flex;
-width:212px;
-height: 40px;
-justify-content: center;
+  width: 212px;
+  height: 40px;
+  justify-content: center;
 }
-#saki_jug  img{
-  width: 485px;
-  height:240px;
 
+#saki_jug img {
+  width: 485px;
+  height: 240px;
 }
+
 #saki_jug h3 {
   position: relative;
   top: -100px;
   left: 8px;
   display: flex;
-width:160px;
-height: 40px;
-justify-content: center;
+  width: 160px;
+  height: 40px;
+  justify-content: center;
 }
-#cup_tan img{
-  width: 234px;
-  height:240px;
 
+#cup_tan img {
+  width: 234px;
+  height: 240px;
 }
+
 #cup_tan h3 {
   position: relative;
   top: -100px;
   left: 8px;
-display: flex;
-width:212px;
-height: 40px;
-justify-content: center;
+  display: flex;
+  width: 212px;
+  height: 40px;
+  justify-content: center;
 }
-h3{
-  border-style: solid #2e3528 ;
+
+h3 {
+  border-style: solid #2e3528;
   color: #F2F1E8;
   background-color: #2e3528;
   margin-left: 0px;
+  line-height: 40px;
 }
-#site-footer{
+
+#site-footer {
   background-color: #2B2F26;
   width: 1211px;
   color: white;
   margin-left: -9px;
   padding: 19px;
   padding-left: 58px;
-
 }
