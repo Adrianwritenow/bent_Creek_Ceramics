@@ -181,19 +181,19 @@ body {
   margin-left: 80px;
 }
 
-.faci_p {
+#faci_p {
   flex-basis: 50%;
   margin-top: -60px;
 }
 
-.faci_p h3 {
+#faci_p h3 {
   font-family: 'Merriweather', serif;
   font-weight: lighter;
   color: #2B2F26;
   font-size: 2em;
 }
 
-.faci_p p {
+#faci_p p {
   font-family: 'Merriweather', serif;
   display: block;
   line-height: 35px;
